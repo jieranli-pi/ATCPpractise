@@ -1,0 +1,138 @@
+instruments_config:
+  adcp_config:
+    max_depth_meter: -1000.0
+    num_bins: 40
+    period_minutes: 5.0
+  argo_float_config:
+    cycle_days: 10.0
+    drift_days: 9.0
+    drift_depth_meter: -1000.0
+    max_depth_meter: -2000.0
+    min_depth_meter: 0.0
+    stationkeeping_time_minutes: 20.0
+    vertical_speed_meter_per_second: -0.1
+  ctd_bgc_config:
+    max_depth_meter: -2000.0
+    min_depth_meter: -11.0
+    stationkeeping_time_minutes: 50.0
+  ctd_config:
+    max_depth_meter: -2000.0
+    min_depth_meter: -11.0
+    stationkeeping_time_minutes: 50.0
+  drifter_config:
+    depth_meter: -1.0
+    lifetime_minutes: 60480.0
+    stationkeeping_time_minutes: 20.0
+  ship_underwater_st_config:
+    period_minutes: 5.0
+  xbt_config:
+    deceleration_coefficient: 0.00225
+    fall_speed_meter_per_second: 6.7
+    max_depth_meter: -285.0
+    min_depth_meter: -2.0
+schedule:
+  space_time_region:
+    spatial_range:
+      maximum_depth: 5000.0
+      maximum_latitude: 74.541108
+      maximum_longitude: 16.933478
+      minimum_depth: 0.0
+      minimum_latitude: 71.178639
+      minimum_longitude: 4.74592
+    time_range:
+      end_time: 2025-10-19 09:00:00
+      start_time: 2025-08-31 21:00:00
+  waypoints:
+  - instrument:
+    - CTD
+    - ARGO_FLOAT
+    location:
+      latitude: 74.522265
+      longitude: 10.610079
+    time: 2025-09-01 09:00:00
+  - instrument:
+    - CTD
+    - ARGO_FLOAT
+    location:
+      latitude: 73.660685
+      longitude: 8.207893
+    time: 2025-09-01 21:00:00
+  - instrument:
+    - CTD
+    - ARGO_FLOAT
+    location:
+      latitude: 74.541108
+      longitude: 4.781247
+    time: 2025-09-02 09:00:00
+  - instrument:
+    - CTD
+    - ARGO_FLOAT
+    location:
+      latitude: 72.846543
+      longitude: 4.781247
+    time: 2025-09-02 21:00:00
+  - instrument:
+    - CTD
+    - ARGO_FLOAT
+    location:
+      latitude: 71.2128
+      longitude: 4.74592
+    time: 2025-09-03 09:00:00
+  - instrument:
+    - CTD
+    - ARGO_FLOAT
+    location:
+      latitude: 72.188646
+      longitude: 8.207893
+    time: 2025-09-03 21:00:00
+  - instrument:
+    - CTD
+    - ARGO_FLOAT
+    location:
+      latitude: 73.097772
+      longitude: 10.623317
+    time: 2025-09-04 09:00:00
+  - instrument:
+    - CTD
+    - ARGO_FLOAT
+    location:
+      latitude: 72.210347
+      longitude: 13.153568
+    time: 2025-09-04 21:00:00
+  - instrument:
+    - CTD
+    - ARGO_FLOAT
+    location:
+      latitude: 71.190033
+      longitude: 10.857362
+    time: 2025-09-05 09:00:00
+  - instrument:
+    - CTD
+    - ARGO_FLOAT
+    location:
+      latitude: 71.178639
+      longitude: 16.933478
+    time: 2025-09-06 09:00:00
+  - instrument:
+    - CTD
+    - ARGO_FLOAT
+    location:
+      latitude: 72.960779
+      longitude: 16.898151
+    time: 2025-09-06 21:00:00
+  - instrument:
+    - CTD
+    - ARGO_FLOAT
+    location:
+      latitude: 73.620885
+      longitude: 13.082916
+    time: 2025-09-07 09:00:00
+  - instrument:
+    - CTD
+    - ARGO_FLOAT
+    location:
+      latitude: 74.522265
+      longitude: 16.827499
+    time: 2025-09-07 21:00:00
+ship_config:
+  ship_speed_knots: 10.0
